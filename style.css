@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+#head{
+    color: hotpink;
+}
+
+#playground a{
+    color: skyblue;
+    margin: 32px;
+}
+
+.mg-top32{
+    margin-top: 32px;
+}
+
+#oyuncu_kart{
+    
+}
