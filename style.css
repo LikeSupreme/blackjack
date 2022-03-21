@@ -9,14 +9,20 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     text-align: center;
+    
 }
 
-#head{
+.head{
     color: hotpink;
 }
 
+#playground{
+    margin: auto;
+    max-width: 768px;
+}
+
 #playground a{
-    color: skyblue;
+    color: hotpink;
     margin: 32px;
 }
 
@@ -25,5 +31,71 @@ body{
 }
 
 #oyuncu_kart{
+    margin-top:  384px;
     
+}
+
+#oyuncu1::before{
+    content: "Oyuncu Kart 1: ";
+    color: skyblue;
+}
+
+#oyuncu2::before{
+    content: "Oyuncu Kart 2: ";
+    color: skyblue;
+}
+
+#kasa1::before{
+    content: "Kasa Kart 1: ";
+    color: skyblue;
+}
+
+#kasa2::before{
+    content: "Kasa Kart 2: ";
+    color: skyblue;
+}
+
+.buton{
+    padding: 10px 48px;
+    background-color: hotpink;
+    color: white;
+    margin: 32px 16px;
+    cursor: pointer;
+}
+
+#bet{
+    padding: 10px 53px;
+}
+
+#bet:hover{
+    background-color: green;
+}
+
+#stay:hover{
+    background-color: red;
+}
+
+#start{
+    margin-top: 0px;
+}
+
+#start:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+#add{
+    padding: 10px 31px;
+}
+
+#add:hover{
+    background-color: rgb(228, 198, 65);
+}
+
+#end{
+    padding: 10px 55px;
+}
+
+#end:hover{
+    background-color: red;
 }
