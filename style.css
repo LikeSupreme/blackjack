@@ -9,7 +9,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     text-align: center;
-    
+    font-size: 1.2rem;
 }
 
 .head{
@@ -45,6 +45,11 @@ body{
     color: skyblue;
 }
 
+#oyuncu3::before{
+    content: "Oyuncu Kart 3: ";
+    color: skyblue;
+}
+
 #kasa1::before{
     content: "Kasa Kart 1: ";
     color: skyblue;
@@ -58,9 +63,11 @@ body{
 .buton{
     padding: 10px 48px;
     background-color: hotpink;
-    color: white;
+    color: black;
     margin: 32px 16px;
     cursor: pointer;
+    border: none;
+    font-size: 1rem;
 }
 
 #bet{
@@ -69,10 +76,6 @@ body{
 
 #bet:hover{
     background-color: green;
-}
-
-#stay:hover{
-    background-color: red;
 }
 
 #start{
@@ -94,6 +97,7 @@ body{
 
 #end{
     padding: 10px 55px;
+    margin-top: 0;
 }
 
 #end:hover{
