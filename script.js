@@ -14,7 +14,7 @@ const kart = {
 
     kartlar: ["2", "3", "4", "5", "6", "7", "8", "9", "A", "K", "Q", "J"],
 
-    kartlarMap: {"2":2, "3":3, "4":4, "5":5, "6":6, "7":7, "8":8, "9":9, "A":10, "K":11, "Q":12, "J":13}
+    kartlarMap: {2:"2", 3:"3", 4:"4", 5:"5", 6:"6", 7:"7", 8:"8", 9:"9", 10:"A", 11:"K", 12:"Q", 13:"J"} //i've tried something. i will probably change the quotes place.
 
 };
 
@@ -46,6 +46,8 @@ function play(){
 
         kasa1.textContent = kart.kartlar[randKasaKart1];
     }
+
+    console.log(oyuncu1.textContent + " " + oyuncu2.textContent); // just checking
 }
 
 add.addEventListener("click", addCard);
@@ -61,6 +63,7 @@ function addCard(){
         oyuncu3.textContent = kart.kartlar[randOyuncuKart3];
 
     }
+    console.log(oyuncu3.textContent); // just checking
 }
 
 end.addEventListener("click", endGame);
@@ -75,8 +78,10 @@ function endGame(){
 
         kasa2.textContent = kart.kartlar[randKasaKart2];
     }
+
 }
 
 // for(i in kart.kartlarMap){
 //     console.log(i);
 // }
+//console.log(kart.kartlarMap[13]);

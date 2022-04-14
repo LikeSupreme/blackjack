@@ -79,7 +79,8 @@ body{
 }
 
 #start{
-    margin-top: 0px;
+    margin-top: 32px;
+    margin-bottom: 0px;
 }
 
 #start:hover{
