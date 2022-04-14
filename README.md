@@ -61,35 +61,3 @@ javascript ile blackjack oyunu
     |__________________________|______|
 
     Kaynak: Vikipedia
-
-
-                                                  *** SÖZDE KOD ***
-    
-    oyuncu, oyuna başlar
-
-    kartların dağıtılır.
-
-    kartların dağıtımı şu şekildedir:
-    
-        kasa ilk kartını açık, ikinci kartını kapalı şekilde kendine alır.
-
-        oyunculara ikisi de açık olacak şekilde iki tane kart dağıtılır.
-    
-    daha sonra oyuncular bet yapar veya eli pas geçerek o elde oynamaz.
-
-    daha sonra kasa, oyunculara sırasıyla kart dağıtır. oyuncu ister kart alır, ister kart almadan elindeki iki kartla devam eder.
-    
-    kart dağıtımlarından sonra, kasa elindeki kapalı olan kartı açarak oyunun sonucunu belirler.
-
-                                                    oyunun ilk versiyonunda kart görselleri olmayacak. sadece yazılarla hangi kartlar olduğu belli olacak.
-
-    eğer oyuncu 21 yaparsa ve kasa 21 den farklı bir şey açarsa oyuncu yaptığı betin 3 katını (?) kazanır.
-
-    eğer oyuncu ve kasa 21 yaparsa berabere olur ve bet parasını geri alır.
-
-    eğer oyuncu 21 den büyük açarsa oyunu direkt kaybeder.
-
-    eğer oyuncu ve kasa 21 den büyük açarsa bet parası geri verilir (?)
-
-    eğer oyuncu kasadan küçük el açarsa oyunu kaybeder.
-
